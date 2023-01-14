@@ -1,3 +1,40 @@
-header{
-    display: flex;
+*{
+  margin: 0;
+  padding: 0;
+}
+.header-parallax-video {
+    margin: 0;
+    position: relative;
+    background-color: #E5E3E5;
+   height: auto;
+  }
+
+  
+.video-parallax {
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+.header-parallax {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: -50px;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -9999;
+}
+.content-header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  z-index: 1;
+  background-size: cover;
+}
+.header-secoes{
+  display: flex;
 }
