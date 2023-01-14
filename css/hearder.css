@@ -20,7 +20,7 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  top: -50px;
+  top: -30px;
   height: auto;
   width: auto;
   min-height: 100%;
@@ -35,6 +35,31 @@
   z-index: 1;
   background-size: cover;
 }
+.header-logo{
+  width: 85px;
+  height: 85px;
+  background-color: black;
+  color: white;
+  border-radius: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  text-decoration: none;
+}
+.header-logo h1{
+  font-size: 44px;
+}
 .header-secoes{
   display: flex;
+  margin-top: 20px;
+  gap: 150px;
+}
+.header-secoes h1{
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+.header-secoes h1:hover{
+  color: red;
 }
