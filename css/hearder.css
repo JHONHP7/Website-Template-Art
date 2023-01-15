@@ -36,6 +36,7 @@
   background-size: cover;
 }
 .header-logo{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 85px;
   height: 85px;
   background-color: black;
