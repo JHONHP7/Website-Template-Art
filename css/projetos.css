@@ -3,6 +3,7 @@
     width: 100%;
     
     margin-top: 550px;
+    padding-bottom: 140px;
 }
 #section-projetos{
     display: flex;
@@ -29,7 +30,7 @@
     flex-wrap: wrap;
     
 }
-.projetos-content-img div{
+.projetos-content-img .div-segura-projetos{
     width: 31.5%;
     height: 23vh;
     zoom: 1.5;
@@ -38,13 +39,32 @@
     
 }
 .img-projetos{
-    
-    position: relative;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    margin: 0;
+    padding: 0;
 }
 .hover-projetos{
     
+    position: relative;
+    bottom: 103%;
+    opacity:0;
+    width: 100%;
+    height: 100.7%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 15px;
     z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.hover-projetos:hover{
+    opacity: 1;
+}
+@media (min-height:1000px){
+    .hover-projetos{
+        height: 102%;
+    }
 }

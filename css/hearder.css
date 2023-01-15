@@ -53,7 +53,7 @@
 .header-secoes{
   display: flex;
   margin-top: 20px;
-  gap: 150px;
+  gap: 14vw;
 }
 .header-secoes h1{
   cursor: pointer;
