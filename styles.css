@@ -1,3 +1,6 @@
 
 @import 'css/hearder.css';
 @import 'css/projetos.css';
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
