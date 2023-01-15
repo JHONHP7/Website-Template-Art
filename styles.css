@@ -1,6 +1,11 @@
 
 @import 'css/hearder.css';
 @import 'css/projetos.css';
+@import 'css/about.css';
+
+/*                    IMPORT FONT FAMILY AND BODY CHANGE                  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
