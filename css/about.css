@@ -1,6 +1,7 @@
 #section-about { 
     background-color: white;
     padding-bottom: 6rem;
+    padding-top: 8rem;
 }
 /*                                  text section about                                */
 .text-about{
@@ -27,6 +28,7 @@
     font-weight: 300;
 }
 
+
 .text-about,h2{
     font-size: 2vh;
     padding-top: 2rem;
@@ -38,8 +40,14 @@
 /*                                  img section about                                */
 
 .img-about{
-    padding-top: 20vh;
-    padding-bottom: 4vh;
+    background-image: url(../assets/recSquare.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 30vh;
+    padding-bottom: 40vh;
 }
 .img-about img{ 
     width: 100%;

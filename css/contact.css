@@ -1,0 +1,15 @@
+#section-lastPic{
+    background-image: url(../assets/lastPic.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+#section-contact{
+    background-color: white;
+}
+.form{
+    text-align: center;
+}
