@@ -13,3 +13,10 @@
 .form{
     text-align: center;
 }
+.section-contact-text{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 10vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}

@@ -1,7 +1,7 @@
 #section-about { 
     background-color: white;
     padding-bottom: 6rem;
-    padding-top: 8rem;
+    
 }
 /*                                  text section about                                */
 .text-about{
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
 } 
-.text-about,h1{
+.text-about h1{
     text-align: center;
     padding-top: 2rem;
     font-size: 10vh;
@@ -29,7 +29,7 @@
 }
 
 
-.text-about,h2{
+.text-about h2{
     font-size: 2vh;
     padding-top: 2rem;
     font-family: 'Oswald', sans-serif;
