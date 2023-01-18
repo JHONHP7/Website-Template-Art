@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 .header-parallax-video {
     margin: 0;
     position: relative;
@@ -58,12 +61,12 @@
   margin-top: 30px;
   gap: 13vw;
 }
-.header-secoes h1{
+.header-secoes h1 a{
   cursor: pointer;
   transition: 0.3s;
-  
+  color: black;
 }
-.header-secoes h1:hover{
+.header-secoes h1 a:hover{
   color: red;
 }
 

@@ -4,7 +4,7 @@
     
 }
 /*                                  text section about                                */
-.text-about{
+#text-about{
     height: 20vh;
     width: 100%;
     display: flex;
@@ -20,16 +20,16 @@
     flex-direction: column;
     justify-content: center;
 } 
-.text-about h1{
+#text-about h1{
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 11vh;
     font-size: 10vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
 }
 
 
-.text-about h2{
+#text-about h2{
     font-size: 2vh;
     padding-top: 2rem;
     font-family: 'Oswald', sans-serif;
