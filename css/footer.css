@@ -1,0 +1,16 @@
+#footer-section{
+    height:7vh;
+    width: 100%;
+    background-color: #DE5021;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-footer{
+    color: aliceblue;
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 120;
+}
