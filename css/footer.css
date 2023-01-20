@@ -1,8 +1,8 @@
-#footer-section{
+footer{
     height:7vh;
     width: 100%;
     background-color: #DE5021;
-    margin-top: 5rem;
+    /* padding-top: 5rem; */
     text-align: center;
     display: flex;
     align-items: center;

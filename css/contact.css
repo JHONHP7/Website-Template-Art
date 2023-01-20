@@ -10,6 +10,8 @@
 #section-contact{
     background-color: white;
     padding-bottom: 5rem;
+    padding-top: 5rem;
+   
 }
 .form{
     text-align: center;
@@ -20,4 +22,38 @@
     font-size: 10vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
+}
+.inputName, .inputTel, .inputEmail {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid rgb(19, 18, 18);
+    width: 80vh;
+    border-radius: 0%;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.inputName:hover, .inputTel:hover, .inputEmail:hover, textarea:hover{
+    background-color: rgba(192, 172, 172, 0.205);
+}
+
+
+.inputName{
+    margin-top: 2rem;
+}
+textArea{
+    border:2px solid black;
+    padding-bottom: 15px;
+    outline: none;
+    width: 80vh;
+    height: 15vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0%;
+    padding-left: 15px;
+    transition: all 0.2s;
+    resize: none;
 }
