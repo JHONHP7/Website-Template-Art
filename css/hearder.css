@@ -56,17 +56,18 @@ a{
   font-size: 45px;
   font-weight: 120;
 }
-.header-secoes{
+.header-secoes, .header-projetos{
   display: flex;
   margin-top: 30px;
   gap: 13vw;
 }
-.header-secoes h1 a{
+.header-secoes h1 a, .header-projetos h1 a{
   cursor: pointer;
   transition: 0.3s;
   color: black;
+  font-weight: 200;
 }
-.header-secoes h1 a:hover{
+.header-secoes h1 a:hover, .header-projetos h1 a:hover{
   color: red;
 }
 
