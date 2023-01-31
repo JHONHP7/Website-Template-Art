@@ -1,7 +1,7 @@
 
 $('.nav-projetos img').click(function(e){
     var id = $(this).attr('src');
-    console.log(id);
+    
     
     if(id=="assets/1.png"){
         $('#projeto1').css("opacity", "1");
