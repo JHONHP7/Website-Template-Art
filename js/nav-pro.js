@@ -56,6 +56,7 @@ $('.nav-projetos img').click(function(e){
     }else{
         $('#projeto9').css("opacity", "0");
     }
+    
 })
 
 $('.projetos-content-img .div-segura-projetos').click(function(e){
@@ -90,8 +91,7 @@ if(url_atual == "/projetos.html"){
     }
     if(id =="assets/8.png"){
         $('#projeto8').css("opacity", "1");
-        var a = $('#projeto8');
-        console.log(a)
+    
     }
 
     if(id =="assets/9.png"){
