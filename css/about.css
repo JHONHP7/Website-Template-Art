@@ -11,7 +11,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5vw;
+    padding-bottom: 10vw;
+    text-align: center;
 }
 .text-about-in{
     width: 50%;
@@ -19,6 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 300%;
 } 
 #text-about h1{
     text-align: center;
