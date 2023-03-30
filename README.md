@@ -1,5 +1,3 @@
-# Website-Template-Art
-Art oriented template website
 
 <h1 align="center">Website-Template-Art</h1>
 <div align = "center">
